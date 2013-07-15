@@ -24,7 +24,7 @@
  */
 
 
-var userList[];
+var userList = [];
 
 cb.onDrawPanel(function(user) {
 
@@ -43,7 +43,7 @@ cb.onDrawPanel(function(user) {
 
 function init(){
 
-    setTimeout( getUsers(), 30000);
+    setTimeout( getUsers, 30000);
 
 }
 
